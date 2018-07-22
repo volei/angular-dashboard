@@ -1,3 +1,33 @@
-<mat-toolbar color="primary" class="mat-elevation-z15">
-  <h1>Angular Dashboard</h1>
-</mat-toolbar>
+<div class="row-1">
+      <mat-toolbar fxLayout="row" fxLayoutAlign="space-between" FxFlexFill
+          style="height: 4em; position: fixed; z-index: 1; background: rgb(69,115,141)">
+    <!--style="height: 4em; position: fixed; z-index: 999; background: transparent">-->
+            <!--<div [style.background]="'magenta'" fxFlex="0 0 1em"></div>-->
+          <div [style.background]="'blue'" [style.z-index]="'900'" fxFlex="0 1 2.5em" fxFlex.lt-md="1 1 auto"></div>
+            <div fxFlex="0 1 15em">
+                  <img src="../../assets/EG 180612 Flowexcellence Typehead.svg" alt="Flow Excellence" fxFlex="0 1 100%"
+                       fxFlexAlign="center" style="height: 70%">
+            </div>
+            <!--<div [style.background]="'cyan'" fxFlex></div>-->
+            <div fxFlex></div>
+            <div fxLayoutAlign="space-between" fxFlexAlign="center">
+<!--                <button mat-icon-button matTooltip="'Open all'" [matTooltipPosition]="'right'"
+                        [matTooltipClass]="'dash-tooltip-class'">-->
+                  <button mat-icon-button matTooltip="Open all">
+                        <mat-icon>view_module</mat-icon>
+                  </button>
+                <!--<button mat-icon-button fxFlexAlign="center" matTooltip="Search" [matTooltipPosition]="'right'"
+                        [matTooltipClass]="'dash-tooltip-class'">-->
+                  <button mat-icon-button matTooltip="Search">
+                        <mat-icon>search</mat-icon>
+                  </button>
+<!--                <button mat-icon-button fxFlexAlign="end" matTooltip="Menu" [matTooltipPosition]="'right'"
+                        [matTooltipClass]="'dash-tooltip-class'">-->
+                  <button mat-icon-button matTooltip="Menu">
+                        <mat-icon>menu</mat-icon>
+                  </button>
+            </div>
+      </mat-toolbar>
+</div>
+
+

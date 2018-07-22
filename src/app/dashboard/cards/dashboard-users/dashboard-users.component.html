@@ -1,14 +1,31 @@
-<mat-card style="margin: 15px;" class="mat-elevation-z15" fxFlex fxLayoutAlign="space-between" fxLayout="column">
+<mat-card style="margin: 4px;" class="mat-elevation-z0" fxFlex fxLayoutAlign="space-between" fxLayout="column"
+          [ngStyle]="{'background-image': backImgUrl, 'background-size': 'cover', 'background-opacity': opacity}">
+
+<!--  <mat-card style="margin: 5px;" class="mat-elevation-z15" fxFlex fxLayoutAlign="space-between" fxLayout="column">-->
+
   <mat-card-header>
-    <mat-card-title>{{name}}</mat-card-title>
+      <mat-card-title style="z-index: 800">{{name}} <br/>  {{name2}}</mat-card-title>
   </mat-card-header>
-  <mat-card-content fxLayout="column" fxLayoutAlign="space-between" fxFlex>
+
+  <!--<img mat-card-image [src]="'/assets/john-carlisle-539580-unsplash.jpg'" fxLayout="row" fxLayoutAlign="space-between" style="opacity: 0.3; z-index: 0">-->
+
+  <mat-card-content fxLayout="row" fxLayout="column" fxLayoutAlign="space-between" fxFlex [ngStyle]="{'background-color': transparent, 'opacity': '1.0'}">
+  <div fxFill [ngStyle]="{'background-color': color, 'opacity': '0.1'}"></div>
     <p> content </p>
   </mat-card-content>
+
   <mat-card-footer>
-    <mat-card-actions fxFlex>
-      <button mat-raised-button color="primary">button1</button>
-      <button mat-raised-button color="primary">button2</button>
+    <mat-card-actions fxLayout="row" fxLayoutAlign="space-around" fxFlexFill>
+        <div></div>
+      <button mat-raised-button class="link-btn" fxFlexAlign="center" style="background: transparent" color="white" matTooltip="Enter {{name}}" [matTooltipShowDelay]="1000">Enter</button>
+        <div></div>
+      <button mat-icon-button fxFlexAlign="right" matTooltip="Close" [matTooltipShowDelay]="1000">
+<!--        <mat-icon style="margin: auto;" class="fa" ngClass="fa-times-circle"></mat-icon>-->
+        <mat-icon>close</mat-icon>
+      </button>
+
+
     </mat-card-actions>
   </mat-card-footer>
+
 </mat-card>

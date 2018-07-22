@@ -1,6 +1,7 @@
 import {Component, ComponentFactoryResolver, Injector, Input, OnInit, ViewChild, ViewContainerRef} from '@angular/core';
 import {DashboardCard} from '../dashboard-card';
 
+
 @Component({
   selector: 'app-dashboard-cards-spawner',
   templateUrl: './dashboard-cards-spawner.component.html',
@@ -17,8 +18,11 @@ export class DashboardCardsSpawnerComponent implements OnInit {
       return;
     }
     const inputProviders = Object.keys(data.input).map((inputName) => {
+      console.log(JSON.stringify( {provide: data.input[inputName].key, useValue: data.input[inputName].value, deps: []}));
       return {provide: data.input[inputName].key, useValue: data.input[inputName].value, deps: []};
     });
+    // WM: Original: const injector = Injector.create(inputProviders, this.container.parentInjector);
+    // not deprecated on Injector ??????????
     const injector = Injector.create(inputProviders, this.container.parentInjector);
     const factory = this.resolver.resolveComponentFactory(data.component);
     const component = factory.create(injector);

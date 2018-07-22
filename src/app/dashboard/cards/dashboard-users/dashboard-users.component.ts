@@ -11,11 +11,14 @@ export class DashboardUsersComponent extends AbstractDashboardCard implements On
 
   constructor(private injector: Injector) {
     super(injector.get(DashboardCard.metadata.NAME),
+      injector.get(DashboardCard.metadata.NAME2),
       injector.get(DashboardCard.metadata.ROUTERLINK),
       injector.get(DashboardCard.metadata.ICONCLASS),
       injector.get(DashboardCard.metadata.COLS),
       injector.get(DashboardCard.metadata.ROWS),
-      injector.get(DashboardCard.metadata.COLOR));
+      injector.get(DashboardCard.metadata.COLOR),
+      injector.get(DashboardCard.metadata.BACKIMGURL),
+      injector.get(DashboardCard.metadata.OPACITY));
   }
 
   ngOnInit() {

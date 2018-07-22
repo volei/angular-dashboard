@@ -1,13 +1,23 @@
+/*@import '~@angular/material/prebuilt-themes/indigo-pink.css';*/
+
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+
 
 .mat-drawer-container {
   background: #939393;
 }
 
+/* for buttons */
 mat-card-actions {
   margin-left: 24px !important;
 }
 
 .dash-tooltip-class {
   font-size: 16px;
+}
+
+html, body {
+
+  margin: 0;
+  background: #939393;
 }
