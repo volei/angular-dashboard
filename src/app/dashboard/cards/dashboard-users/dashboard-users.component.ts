@@ -10,15 +10,17 @@ import {AbstractDashboardCard} from '../abstract-dashboard-card';
 export class DashboardUsersComponent extends AbstractDashboardCard implements OnInit {
 
   constructor(private injector: Injector) {
-    super(injector.get(DashboardCard.metadata.NAME),
-      injector.get(DashboardCard.metadata.NAME2),
+    super(
+      injector.get(DashboardCard.metadata.CAPTION),
+      injector.get(DashboardCard.metadata.SUBHEADER),
       injector.get(DashboardCard.metadata.ROUTERLINK),
       injector.get(DashboardCard.metadata.ICONCLASS),
       injector.get(DashboardCard.metadata.COLS),
       injector.get(DashboardCard.metadata.ROWS),
-      injector.get(DashboardCard.metadata.COLOR),
-      injector.get(DashboardCard.metadata.BACKIMGURL),
-      injector.get(DashboardCard.metadata.OPACITY));
+      injector.get(DashboardCard.metadata.TILECOLORFROM),
+      injector.get(DashboardCard.metadata.TILECOLORTO),
+      injector.get(DashboardCard.metadata.TILEIMGURL),
+      injector.get(DashboardCard.metadata.CONTCOLOR));
   }
 
   ngOnInit() {

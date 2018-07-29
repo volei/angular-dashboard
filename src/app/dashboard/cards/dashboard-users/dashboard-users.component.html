@@ -1,27 +1,50 @@
-<mat-card style="margin: 4px;" class="mat-elevation-z0" fxFlex fxLayoutAlign="space-between" fxLayout="column"
-          [ngStyle]="{'background-image': backImgUrl, 'background-size': 'cover', 'background-opacity': opacity}">
+<!--<mat-card style="margin: 4px;" class="mat-elevation-z0" fxFlex fxLayoutAlign="space-between" fxLayout="column"
+          [ngStyle]="{'background-image': tileImgUrl, 'background-color': 'rgba(200,255,100,0.2)', 'background-size': 'cover'}">
+    <span [ngStyle]="{'width': '100%', 'height': '100%', 'background-color': 'rgba(200,255,100,0.3)', 'z-index': '1',
+    'background-size': 'cover', 'background-tile-opacity': contColor}"></span>-->
+<mat-card style="margin: 2px;" class="mat-elevation-z0" fxFlex fxLayoutAlign="space-between" fxLayout="column"
+              [ngStyle]="{'background': 'linear-gradient(' + tileColorFrom + ',' + tileColorTo + '),' + tileImgUrl, 'background-size': 'cover'}">
 
 <!--  <mat-card style="margin: 5px;" class="mat-elevation-z15" fxFlex fxLayoutAlign="space-between" fxLayout="column">-->
 
   <mat-card-header>
-      <mat-card-title style="z-index: 800">{{name}} <br/>  {{name2}}</mat-card-title>
+      <mat-card-title style="z-index: 800"> {{caption}} <br/> {{subHeader}}</mat-card-title>
   </mat-card-header>
 
-  <!--<img mat-card-image [src]="'/assets/john-carlisle-539580-unsplash.jpg'" fxLayout="row" fxLayoutAlign="space-between" style="opacity: 0.3; z-index: 0">-->
+  <!--<img mat-card-image [src]="'/assets/john-carlisle-539580-unsplash.jpg'" fxLayout="row" fxLayoutAlign="space-between" style="contColor: 0.3; z-index: 0">-->
 
-  <mat-card-content fxLayout="row" fxLayout="column" fxLayoutAlign="space-between" fxFlex [ngStyle]="{'background-color': transparent, 'opacity': '1.0'}">
-  <div fxFill [ngStyle]="{'background-color': color, 'opacity': '0.1'}"></div>
-    <p> content </p>
+  <mat-card-content fxLayout="column" fxLayoutAlign="space-between" fxFlex [ngStyle]="{'background-color': 'rgba(255,100,100,' + contColor + ')', 'opacity': '1.0'}">
+      content
+      <p [ngStyle]="{'background-color': 'rgba(0,0,0,1.0)', 'opacity': '0.5'}">
+          sub-content
+      </p>
   </mat-card-content>
 
   <mat-card-footer>
     <mat-card-actions fxLayout="row" fxLayoutAlign="space-around" fxFlexFill>
-        <div></div>
-      <button mat-raised-button class="link-btn" fxFlexAlign="center" style="background: transparent" color="white" matTooltip="Enter {{name}}" [matTooltipShowDelay]="1000">Enter</button>
-        <div></div>
-      <button mat-icon-button fxFlexAlign="right" matTooltip="Close" [matTooltipShowDelay]="1000">
+      <div></div>
+<!--      <button mat-raised-button
+              class="link-btn"
+              fxFlexAlign="center"
+              style="background: transparent" color="white" matTooltip="Enter {{caption}}"
+              [matTooltipShowDelay]="1000">
+          Enter
+      </button>-->
+        <button mat-icon-button
+                matTooltip="Details to {{caption}}"
+                [matTooltipPosition]="'above'"
+                [matTooltipShowDelay]="1000"
+                routerLink="/table">
+          <mat-icon                 fxFlexAlign="center">chevron_right</mat-icon>
+        </button>
+
+      <button mat-icon-button
+              fxFlexAlign="right"
+              matTooltip="Hide"
+              [matTooltipPosition]="'above'"
+              [matTooltipShowDelay]="1000">
 <!--        <mat-icon style="margin: auto;" class="fa" ngClass="fa-times-circle"></mat-icon>-->
-        <mat-icon>close</mat-icon>
+        <mat-icon>remove</mat-icon>
       </button>
 
 

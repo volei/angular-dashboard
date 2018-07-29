@@ -3,23 +3,30 @@ import {Observable} from 'rxjs';
 
 export class DashboardCard {
   static metadata: any = {
-    NAME: new InjectionToken<string>('name'),
-    NAME2: new InjectionToken<string>('name2'),
-    ROUTERLINK: new InjectionToken<string>('routerLink'),
-    ICONCLASS: new InjectionToken<string>('iconClass'),
+    CAPTION: new InjectionToken<string>('caption'),    // Main title of tile, e.g. NAME, Surname
+    SUBHEADER: new InjectionToken<string>('subHeader'), // Subtitle of tile, e.g. job function
+    AVATAR: new InjectionToken<string>('avatar'),      // Nickname, e.g. for side menu item
+    ROUTERLINK: new InjectionToken<string>('routerLink'), // Where to go after tile is selected
+    ICONCLASS: new InjectionToken<string>('iconClass'),   // Icon of
     COLS: new InjectionToken<Observable<number>>('cols'),
     ROWS: new InjectionToken<Observable<number>>('rows'),
-    COLOR: new InjectionToken<string>('color'),
-    BACKIMGURL: new InjectionToken<string>('backImgUrl'),
-    OPACITY: new InjectionToken<string>('opacity')
+    TILECOLORFROM: new InjectionToken<string>('tileColorFrom'),           // Tile tileColor, if not computed from other
+    TILECOLORTO: new InjectionToken<string>('tileColorTo'),           // Tile tileColor, if not computed from other
+    TILEIMGURL: new InjectionToken<string>('tileImgUrl'), // Tile image, fills full tile
+    CONTCOLOR: new InjectionToken<string>('contColor'),   // Opacity of background image
+    CONTIMGURL: new InjectionToken<string>('contImgUrl'),   // Opacity of background image
   };
 
   constructor(private _input: {
-    name: {
+    caption: {
       key: InjectionToken<string>,
       value: string
     },
-    name2: {
+    subHeader: {
+      key: InjectionToken<string>,
+      value: string
+    },
+    avatar: {
       key: InjectionToken<string>,
       value: string
     },
@@ -39,15 +46,19 @@ export class DashboardCard {
       key: InjectionToken<Observable<number>>,
       value: Observable<number>
     },
-    color: {
+    tileColorFrom: {
       key: InjectionToken<string>,
       value: string
     },
-    backImgUrl: {
+    tileColorTo: {
+      key: InjectionToken<string>,
+      value: string
+    },
+    tileImgUrl: {
         key: InjectionToken<string>,
         value: string
     },
-    opacity: {
+    contColor: {
       key: InjectionToken<string>,
       value: string
     }
@@ -55,11 +66,15 @@ export class DashboardCard {
   }
 
   get input(): {
-    name: {
+    caption: {
       key: InjectionToken<string>;
       value: string
     };
-    name2: {
+    subHeader: {
+      key: InjectionToken<string>,
+      value: string
+    },
+    avatar: {
       key: InjectionToken<string>,
       value: string
     },
@@ -79,15 +94,19 @@ export class DashboardCard {
       key: InjectionToken<Observable<number>>;
       value: Observable<number>
     };
-    color: {
+    tileColorFrom: {
       key: InjectionToken<string>;
       value: string
     };
-    backImgUrl: {
+    tileColorTo: {
       key: InjectionToken<string>;
       value: string
     };
-    opacity: {
+    tileImgUrl: {
+      key: InjectionToken<string>;
+      value: string
+    };
+    contColor: {
       key: InjectionToken<string>;
       value: string
     }

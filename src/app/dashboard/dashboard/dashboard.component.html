@@ -1,17 +1,24 @@
 <mat-sidenav-container style="min-height: 100%;" fxFlex>
-  <mat-sidenav [opened]="true" mode="side" style="width: auto; z-index: 999; background: rgb(69,115,141)"
-               [fixedInViewport]="true" [fixedTopGap]="'80'"
+  <mat-sidenav [opened]="true"
+               mode="side"
+               style="width: auto; z-index: 999; background: rgb(69,115,141)"
+               [fixedInViewport]="true"
+               [fixedTopGap]="'80'"
                [fixedBottomGap]="0">
-    <mat-list>
-      <mat-list-item *ngFor="let card of cards">
-        <button mat-button matTooltip="{{card.input.name.value}}" [matTooltipPosition]="'right'"   [matTooltipHideDelay]="50">
-            <!--<button mat-icon-button matTooltip="{{card.input.name.value}}"  [matTooltipPosition]="'bottom'"
+    <mat-list FxLayout="column">
+      <a mat-list-item *ngFor="let card of cards" fxFlexAlign="start">
+        <a mat-button
+           style="text-align:left"
+           matTooltip="{{card.input.subHeader.value}}"
+           [matTooltipPosition]="'right'"
+           [matTooltipHideDelay]="50">
+            <!--<button mat-icon-button matTooltip="{{card.input.caption.value}}"  [matTooltipPosition]="'bottom'"
                     [matTooltipClass]="'dash-tooltip-class'"-->
 <!--          <mat-icon style="margin: auto;" class="fa" ngClass="{{card.input.iconClass.value}}"></mat-icon>-->
 <!--          <mat-icon>search</mat-icon> -->
-            {{card.input.name.value}}
-        </button>
-      </mat-list-item>
+            {{card.input.avatar.value}}
+        </a>
+      </a>
     </mat-list>
   </mat-sidenav>
   <mat-sidenav-content>

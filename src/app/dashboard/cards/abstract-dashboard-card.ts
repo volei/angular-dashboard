@@ -1,21 +1,22 @@
 export abstract class AbstractDashboardCard {
-  constructor(private _name: string,
-              private _name2: string,
+  constructor(private _caption: string,
+              private _subHeader: string,
               private _routerLink: string,
               private _iconClass: string,
               private _col: string,
               private _row: string,
-              private _color: string,
-              private _backImgUrl: string,
-              private _opacity: string) {
+              private _tileColorFrom: string,
+              private _tileColorTo: string,
+              private _tileImgUrl: string,
+              private _contColor: string) {
   }
 
-  get name(): string {
-    return this._name;
+  get caption(): string {
+    return this._caption;
   }
 
-  get name2(): string {
-    return this._name2;
+  get subHeader(): string {
+    return this._subHeader;
   }
 
   get routerLink(): string {
@@ -34,15 +35,18 @@ export abstract class AbstractDashboardCard {
     return this._row;
   }
 
-  get color(): string {
-    return this._color;
+  get tileColorFrom(): string {
+    return this._tileColorFrom;
   }
 
-  get backImgUrl(): string {
-    return this._backImgUrl;
+  get tileColorTo(): string {
+    return this._tileColorTo;
+  }
+  get tileImgUrl(): string {
+    return this._tileImgUrl;
   }
 
-  get opacity(): string {
-    return this._opacity;
+  get contColor(): string {
+    return this._contColor;
   }
 }

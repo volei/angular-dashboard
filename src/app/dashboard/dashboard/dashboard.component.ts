@@ -114,12 +114,16 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
             value: 'CLEAR-CUT'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
+            value: 'What is CFD?'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
             value: 'What is CFD?'
           },
           routerLink: {
@@ -138,21 +142,25 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_big
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'yellow'
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.1)'
           }, /*
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: '/assets/coaching-coders-coding-7374.jpg'
           },*/
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'url(../../../../assets/coaching-coders-coding-7374.jpg)'
           },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
-            value: '0.3'
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
+            value: '0.6'
           }
         }, DashboardUsersComponent /* Reference to the component we'd like to spawn */
       )
@@ -160,12 +168,16 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
             value: 'FAST FORWARD'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
+            value: 'Innovate!'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
             value: 'Innovate!'
           },
           routerLink: {
@@ -184,17 +196,21 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'red'
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'url(../../../../assets/Verlauf-Amiga-Bildschirm-Hintergrund_600.jpg)'
           },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
-            value: 'blue'
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
+            value: '0.3'
           }
         }, DashboardUsersComponent
       )
@@ -202,13 +218,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
-            value: 'users3'
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
+            value: 'ABOUT'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
-            value: 'users3'
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
+            value: 'About Flow Excellence'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'About us'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -226,16 +246,20 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'green'
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'url(../../../..)'
           },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
@@ -244,13 +268,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
-            value: 'users4'
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
+            value: 'ROAD ASSISTANCE'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
-            value: 'users3'
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
+            value: 'CFD Service: Need help? Serving you with CFD'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'What is CFD?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -268,16 +296,20 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'blue'
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'url(../../../../assets/adult-business-classroom-256401.jpg)'
           },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
@@ -286,13 +318,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
-            value: 'users5'
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
+            value: 'MISSION ACCOMPLISHED'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
-            value: 'users3'
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
+            value: 'Reference projects'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'CFD Projects'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -310,16 +346,20 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'blue'
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'url(../../../../assets/blur-computer-connection-442150.jpg)'
           },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
@@ -328,13 +368,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
-            value: 'users6'
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
+            value: 'THE WORLD IN DATA'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
-            value: 'users3'
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
+            value: 'Geographic Information Services'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'GIS'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -352,16 +396,20 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_big
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'blue'
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'url(../../../../assets/pexels-photo-325223.jpeg)'
           },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
@@ -370,13 +418,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
             value: 'users7'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
             value: 'users3'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'What is CFD?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -394,16 +446,20 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'blue'
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'url(../../../../assets/pexels-photo-267507.jpeg)'
           },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
@@ -412,13 +468,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
             value: 'users8'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
             value: 'users3'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'What is CFD?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -436,16 +496,20 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'blue'
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'url(../../../../assets/john-carlisle-539580-unsplash.jpg)'
           },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
@@ -454,13 +518,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
-            value: 'users9'
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
+            value: 'users9<p>hallohallo</p>kljlkjjlj'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
             value: 'users3'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'What is CFD?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -478,17 +546,21 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'blue'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
-            value: 'blue'
-          },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
-            value: 'blue'
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
+            value: '0.5'
           }
         }, DashboardUsersComponent
       )
@@ -496,13 +568,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
             value: 'users10'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
             value: 'users3'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'What is CFD?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -520,16 +596,20 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'blue'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
-            value: 'blue'
-          },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
@@ -538,13 +618,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
             value: 'users11'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
             value: 'users3'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'What is CFD?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -562,16 +646,20 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'blue'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
-            value: 'blue'
-          },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
@@ -580,13 +668,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
             value: 'users12'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
             value: 'users3'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'What is CFD?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -598,22 +690,26 @@ export class DashboardComponent implements OnInit {
           },
           cols: {
             key: DashboardCard.metadata.COLS,
-            value: this.cols_sml
+            value: this.cols_big
           },
           rows: {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'blue'
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'url("../../../../assets/EG 180612 Flowexcellence Typehead.png")'
           },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
@@ -622,13 +718,17 @@ export class DashboardComponent implements OnInit {
     this.cardsService.addCard(
       new DashboardCard(
         {
-          name: {
-            key: DashboardCard.metadata.NAME,
+          caption: {
+            key: DashboardCard.metadata.CAPTION,
             value: 'users13'
           },
-          name2: {
-            key: DashboardCard.metadata.NAME2,
+          subHeader: {
+            key: DashboardCard.metadata.SUBHEADER,
             value: 'users3'
+          },
+          avatar: {
+            key: DashboardCard.metadata.AVATAR,
+            value: 'What is CFD?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -646,16 +746,20 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.ROWS,
             value: this.cols_sml
           },
-          color: {
-            key: DashboardCard.metadata.COLOR,
+          tileColorFrom: {
+            key: DashboardCard.metadata.TILECOLORFROM,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileColorTo: {
+            key: DashboardCard.metadata.TILECOLORTO,
+            value: 'rgba(0,0,0,0.7)'
+          },
+          tileImgUrl: {
+            key: DashboardCard.metadata.TILEIMGURL,
             value: 'blue'
           },
-          backImgUrl: {
-            key: DashboardCard.metadata.BACKIMGURL,
-            value: 'blue'
-          },
-          opacity: {
-            key: DashboardCard.metadata.OPACITY,
+          contColor: {
+            key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
         }, DashboardUsersComponent
