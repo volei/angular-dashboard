@@ -1,4 +1,6 @@
 <mat-sidenav-container style="min-height: 100%;" fxFlex>
+
+
   <mat-sidenav [opened]="true"
                mode="side"
                style="width: auto; z-index: 999; background: rgb(69,115,141)"
@@ -7,11 +9,18 @@
                [fixedBottomGap]="0">
     <mat-list FxLayout="column">
       <a mat-list-item *ngFor="let card of cards" fxFlexAlign="start">
+        <!--routerLink="{{card.input.routerLink.value}}"-->
+        <!--[routerLink]="[{ outlets: {sidenavcontent: [card.input.routerLink.value]}}]"-->
+        <!--[routerLink]="[{ outlets: {sidenavcontent: ['/dashboard/cfd']}}]"-->
         <a mat-button
            style="text-align:left"
            matTooltip="{{card.input.subHeader.value}}"
            [matTooltipPosition]="'right'"
-           [matTooltipHideDelay]="50">
+           [matTooltipHideDelay]="50"
+
+          [routerLink]="['dashboard', { outlets: {sidenavcontent: ['/cfd']}}]"
+           routerLinkActive="menu-active"
+           [routerLinkActiveOptions]="{exact: true}">
             <!--<button mat-icon-button matTooltip="{{card.input.caption.value}}"  [matTooltipPosition]="'bottom'"
                     [matTooltipClass]="'dash-tooltip-class'"-->
 <!--          <mat-icon style="margin: auto;" class="fa" ngClass="{{card.input.iconClass.value}}"></mat-icon>-->
@@ -21,6 +30,8 @@
       </a>
     </mat-list>
   </mat-sidenav>
+
+
   <mat-sidenav-content>
     <mat-grid-list [cols]="cols | async">
       <mat-grid-tile *ngFor="let card of cards"
@@ -28,6 +39,11 @@
                      [rowspan]="card.input.rows.value | async">
         <app-dashboard-cards-spawner [card]="card"></app-dashboard-cards-spawner>
       </mat-grid-tile>
-    </mat-grid-list>
+    </mat-grid-list>--Dashboard Component--
+<router-outlet></router-outlet>
+    <!-- TODO: sidenavcontent wird hier nicht richtig kompiliert -->
+    <router-outlet name="sidenavcontent"></router-outlet>
   </mat-sidenav-content>
+
+
 </mat-sidenav-container>

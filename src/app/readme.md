@@ -18,3 +18,13 @@
     
  
  
+ TODO:
+ * User removal-icon-button "-" to make cards active and inactive (blurred)
+    * Purpose on non-infinite list: Disabled menu entry
+    * Purpose on infinite list: Disabled users, etc.
+    
+ * Put X icon-button onto card to erase infinite list items
+ 
+ 
+ Router: click on cards to show full-screen but maintain sidenav.
+ 

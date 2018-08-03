@@ -12,6 +12,12 @@ export class DashboardCardsService {
 
   addCard(card: DashboardCard): void {
     this._cards.next(this._cards.getValue().concat(card));
+    console.log('Total cards present: ' + this._cards.getValue().length);
+  }
+
+  removeAllCards(): void {
+    this._cards.getValue().length = 0;
+    console.log('Cards removed. Total cards present: ' + this._cards.getValue().length);
   }
 
   get cards(): BehaviorSubject<DashboardCard[]> {

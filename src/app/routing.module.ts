@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {HomeComponent} from '../home/home.component';
+import {HomeComponent} from './home/home.component';
 
 const routes: Routes = [
   {
@@ -24,7 +24,8 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, {useHash: true})
+    RouterModule.forRoot(routes, {useHash: false, enableTracing: true})
+    // WM: Don't use hash (#) in path, use HTML5 routing mod instead
   ],
   declarations: [],
   exports: [RouterModule]

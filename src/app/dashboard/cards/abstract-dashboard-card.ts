@@ -42,6 +42,7 @@ export abstract class AbstractDashboardCard {
   get tileColorTo(): string {
     return this._tileColorTo;
   }
+
   get tileImgUrl(): string {
     return this._tileImgUrl;
   }

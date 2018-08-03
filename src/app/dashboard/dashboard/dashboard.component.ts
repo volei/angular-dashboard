@@ -10,11 +10,13 @@ import {ObservableMedia} from '@angular/flex-layout';
 import {map, startWith} from 'rxjs/operators';
 import {DashboardUsersComponent} from '../cards/dashboard-users/dashboard-users.component';
 
+import {DashboardCfdComponent} from '../cards/dashboard-cfd/dashboard-cfd.component';
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
-  entryComponents: [DashboardUsersComponent]
+  entryComponents: [DashboardUsersComponent, DashboardCfdComponent]
 })
 export class DashboardComponent implements OnInit {
 
@@ -85,6 +87,13 @@ export class DashboardComponent implements OnInit {
     });
 
     /**
+     * If not cleared, all present cards on observable will be newly added
+     * when hitting createCards() again
+     * after clicking on link and re-building cards page when coming back.
+     */
+    this.clearAllCards();
+
+    /**
      * WM: Pipe in any media size change to the cols[_xxx] observables
      * Each time observableMedia emits, the cols...-observables get
      * fired the respective No. of cols from the cols_map...-presets.
@@ -107,9 +116,22 @@ export class DashboardComponent implements OnInit {
         return cols_map_sml.get(change.mqAlias);
       }),
       startWith(start_cols_sml));
+
+    /**
+     * This builds the cards array and puts it onto the cards BehaviourSubject using
+     * the service cardsService.
+     */
     this.createCards();
   }
 
+  clearAllCards(): void {
+    this.cardsService.removeAllCards();
+  }
+
+  /**
+   * Add all cards in the DashboardCard class object.
+   * This could come from a remote data source API.
+   */
   createCards(): void {
     this.cardsService.addCard(
       new DashboardCard(
@@ -128,7 +150,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: '/dashboard/cfd'
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -144,11 +166,11 @@ export class DashboardComponent implements OnInit {
           },
           tileColorFrom: {
             key: DashboardCard.metadata.TILECOLORFROM,
-            value: 'rgba(0,0,0,0.7)'
+            value: 'rgba(0,77,128,0.8)'
           },
           tileColorTo: {
             key: DashboardCard.metadata.TILECOLORTO,
-            value: 'rgba(0,0,0,0.1)'
+            value: 'rgba(0,77,128,0.6)'
           }, /*
           tileImgUrl: {
             key: DashboardCard.metadata.TILEIMGURL,
@@ -160,7 +182,7 @@ export class DashboardComponent implements OnInit {
           },
           contColor: {
             key: DashboardCard.metadata.CONTCOLOR,
-            value: '0.6'
+            value: 'rgba(255,100,100,0.6'
           }
         }, DashboardUsersComponent /* Reference to the component we'd like to spawn */
       )
@@ -210,7 +232,7 @@ export class DashboardComponent implements OnInit {
           },
           contColor: {
             key: DashboardCard.metadata.CONTCOLOR,
-            value: '0.3'
+            value: 'rgba(255,100,100,0.6'
           }
         }, DashboardUsersComponent
       )
@@ -298,11 +320,11 @@ export class DashboardComponent implements OnInit {
           },
           tileColorFrom: {
             key: DashboardCard.metadata.TILECOLORFROM,
-            value: 'rgba(0,0,0,0.7)'
+            value:  'rgba(0,191,0,0.9)'
           },
           tileColorTo: {
             key: DashboardCard.metadata.TILECOLORTO,
-            value: 'rgba(0,0,0,0.7)'
+            value: 'rgba(0,191,0,0.6)'
           },
           tileImgUrl: {
             key: DashboardCard.metadata.TILEIMGURL,
@@ -612,7 +634,7 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardCfdComponent
       )
     );
     this.cardsService.addCard(
@@ -720,15 +742,15 @@ export class DashboardComponent implements OnInit {
         {
           caption: {
             key: DashboardCard.metadata.CAPTION,
-            value: 'users13'
+            value: 'CFD'
           },
           subHeader: {
             key: DashboardCard.metadata.SUBHEADER,
-            value: 'users3'
+            value: 'CFD-Component'
           },
           avatar: {
             key: DashboardCard.metadata.AVATAR,
-            value: 'What is CFD?'
+            value: 'CFD-Component'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -762,7 +784,7 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardCfdComponent
       )
     );
   }
