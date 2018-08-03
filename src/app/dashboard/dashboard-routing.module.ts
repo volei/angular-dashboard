@@ -11,16 +11,21 @@ const routes: Routes = [
    * Children for 2nd level <router-outlet> inside dashboard
    */
   {
-    path: '',
+    path: 'dashboard',
     component: DashboardComponent,
     children: [
       {
         path: 'cfd',
         component: CfdComponent,
-/*        outlet: 'sidenavcontent'*/
+        outlet: 'sidenavcontent'
       },
       {
-        path: '',
+        path: 'd',
+        component: DashboardComponent,
+        outlet: 'sidenavcontent'
+      },
+      {
+        path: 'z',
         component: DashboardComponent
       },
       /*  {
