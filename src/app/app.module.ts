@@ -9,7 +9,7 @@ import {RoutingModule} from './routing.module';
 import {HomeComponent} from './home/home.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FlexLayoutModule} from '@angular/flex-layout';
-import {MatIconModule, MatToolbarModule} from '@angular/material';
+import {MatButtonModule, MatIconModule, MatToolbarModule} from '@angular/material';
 
 
 @NgModule({
@@ -25,7 +25,8 @@ import {MatIconModule, MatToolbarModule} from '@angular/material';
     RoutingModule,
     FlexLayoutModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
