@@ -13,8 +13,8 @@ export class DashboardCard {
     TILECOLORFROM: new InjectionToken<string>('tileColorFrom'),           // Tile tileColor, if not computed from other
     TILECOLORTO: new InjectionToken<string>('tileColorTo'),           // Tile tileColor, if not computed from other
     TILEIMGURL: new InjectionToken<string>('tileImgUrl'), // Tile image, fills full tile
-    CONTCOLOR: new InjectionToken<string>('contColor'),   // Opacity of background image
-    CONTIMGURL: new InjectionToken<string>('contImgUrl'),   // Opacity of background image
+    CONTCOLOR: new InjectionToken<string>('contColor'),   // Background color of content
+    CONTIMGURL: new InjectionToken<string>('contImgUrl'),   // Content image url
   };
 
   constructor(private _input: {
