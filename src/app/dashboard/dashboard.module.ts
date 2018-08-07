@@ -12,6 +12,7 @@ import {
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { DashboardCfdComponent } from './cards/dashboard-cfd/dashboard-cfd.component';
 import {CfdComponent} from './cfd/cfd.component';
+import { GridListComponent } from './dashboard/grid-list/grid-list.component';
 
 @NgModule({
   imports: [
@@ -31,7 +32,8 @@ import {CfdComponent} from './cfd/cfd.component';
     DashboardUsersComponent,
     DashboardCardsSpawnerComponent,
     DashboardCfdComponent,
-    CfdComponent
+    CfdComponent,
+    GridListComponent
   ],
   providers: [DashboardCardsService]
 })
