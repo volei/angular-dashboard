@@ -1,3 +1,7 @@
+/**
+ * WM: Card instantiation example
+ */
+
 import {Component, Injector, OnInit} from '@angular/core';
 import {DashboardCard} from '../dashboard-card';
 import {AbstractDashboardCard} from '../abstract-dashboard-card';
@@ -23,6 +27,10 @@ export class DashboardUsersComponent extends AbstractDashboardCard implements On
       injector.get(DashboardCard.metadata.CONTCOLOR));
   }
 
+
+  /**
+   * WM: Customize functionality on/for a card
+   */
   ngOnInit() {
   }
 

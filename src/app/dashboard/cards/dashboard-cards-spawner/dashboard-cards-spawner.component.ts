@@ -17,10 +17,13 @@ export class DashboardCardsSpawnerComponent implements OnInit {
     if (!data) {
       return;
     }
-    const inputProviders = Object.keys(data.input).map((inputName) => {
+    console.log(JSON.stringify( data));
+    let inputProviders = Object.keys(data.input).map((inputName) => {
       console.log(JSON.stringify( {provide: data.input[inputName].key, useValue: data.input[inputName].value, deps: []}));
       return {provide: data.input[inputName].key, useValue: data.input[inputName].value, deps: []};
     });
+    // Optionally include services
+    inputProviders = inputProviders.concat(data.services);
     // WM: Original: const injector = Injector.create(inputProviders, this.container.parentInjector);
     // not deprecated on Injector ??????????
     const injector = Injector.create(inputProviders, this.container.parentInjector);

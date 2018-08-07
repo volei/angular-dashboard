@@ -39,7 +39,8 @@
         <app-dashboard-cards-spawner [card]="card"></app-dashboard-cards-spawner>
       </mat-grid-tile>
     </mat-grid-list>--Dashboard Component--
-<router-outlet></router-outlet>
+<!-- outlet for 1st children level (not upper cards) -->
+    <router-outlet></router-outlet>
     <!-- TODO: sidenavcontent wird hier nicht richtig kompiliert -->
     <router-outlet name="sidenavcontent"></router-outlet>
   </mat-sidenav-content>

@@ -25,6 +25,13 @@ export class DashboardComponent implements OnInit {
   cols_big: Observable<number>;
   cols_sml: Observable<number>;
 
+  /**
+   * WM: Subscribe to the cards BehaviorSubject which holds an array
+   * of all existing cards
+   *
+   * @param cardsService
+   * @param observableMedia
+   */
   constructor(private cardsService: DashboardCardsService,
               private observableMedia: ObservableMedia) {
     this.cardsService.cards.subscribe(cards => {
@@ -118,8 +125,8 @@ export class DashboardComponent implements OnInit {
       startWith(start_cols_sml));
 
     /**
-     * This builds the cards array and puts it onto the cards BehaviourSubject using
-     * the service cardsService.
+     * This builds the cards array and puts it onto the cards BehaviourSubject
+     * using the service cardsService.
      */
     this.createCards();
   }
@@ -130,7 +137,8 @@ export class DashboardComponent implements OnInit {
 
   /**
    * Add all cards in the DashboardCard class object.
-   * This could come from a remote data source API.
+   * This could come from a remote data source API through the
+   * DashboardCardsService.
    */
   createCards(): void {
     this.cardsService.addCard(
@@ -184,7 +192,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'rgba(255,100,100,0.6'
           }
-        }, DashboardUsersComponent /* Reference to the component we'd like to spawn */
+        }, DashboardUsersComponent, /* Reference to the component we'd like to spawn */
+        []
       )
     );
     this.cardsService.addCard(
@@ -234,7 +243,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'rgba(255,100,100,0.6'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -284,7 +294,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -334,7 +345,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+          []
       )
     );
     this.cardsService.addCard(
@@ -384,7 +396,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -434,7 +447,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -484,7 +498,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -534,7 +549,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -584,7 +600,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: '0.5'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -634,7 +651,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardCfdComponent
+        }, DashboardCfdComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -684,7 +702,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -734,7 +753,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardUsersComponent
+        }, DashboardUsersComponent,
+        []
       )
     );
     this.cardsService.addCard(
@@ -784,7 +804,8 @@ export class DashboardComponent implements OnInit {
             key: DashboardCard.metadata.CONTCOLOR,
             value: 'blue'
           }
-        }, DashboardCfdComponent
+        }, DashboardCfdComponent,
+        []
       )
     );
   }

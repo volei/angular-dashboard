@@ -13,6 +13,7 @@ export class DashboardCardsService {
   addCard(card: DashboardCard): void {
     this._cards.next(this._cards.getValue().concat(card));
     console.log('Total cards present: ' + this._cards.getValue().length);
+    console.log(this._cards.getValue());
   }
 
   removeAllCards(): void {

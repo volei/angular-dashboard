@@ -14,10 +14,12 @@ export class DashboardCard {
     TILECOLORTO: new InjectionToken<string>('tileColorTo'),           // Tile tileColor, if not computed from other
     TILEIMGURL: new InjectionToken<string>('tileImgUrl'), // Tile image, fills full tile
     CONTCOLOR: new InjectionToken<string>('contColor'),   // Background color of content
+    // TODO (WM): not used:
     CONTIMGURL: new InjectionToken<string>('contImgUrl'),   // Content image url
   };
 
-  constructor(private _input: {
+  constructor(
+    private _input: {
     caption: {
       key: InjectionToken<string>,
       value: string
@@ -55,15 +57,17 @@ export class DashboardCard {
       value: string
     },
     tileImgUrl: {
-        key: InjectionToken<string>,
-        value: string
+      key: InjectionToken<string>,
+      value: string
     },
     contColor: {
       key: InjectionToken<string>,
       value: string
     }
-  }, private _component: any) {
-  }
+  },
+    private _component: any,   // Component to call
+    private _services: {provide: any, useClass: any, deps: any[]} [],
+  ) {}
 
   get input(): {
     caption: {
@@ -114,7 +118,19 @@ export class DashboardCard {
     return this._input;
   }
 
+  /**
+   * WM: One can have different components with different
+   * card functionalities here:
+   */
   get component(): any {
     return this._component;
+  }
+
+  /**
+   * WM: One can have different services with different
+   * card functionalities here:
+   */
+  get services(): any {
+    return this._services;
   }
 }
