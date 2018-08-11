@@ -17,7 +17,8 @@
            [matTooltipPosition]="'right'"
            [matTooltipHideDelay]="50"
 
-          [routerLink]="[{ outlets: {sidenavcontent: ['cfd']}}]"
+           [routerLink]="['./' + card.input.routerLink.value.path.toString(),
+                           { outlets: {'sidenavcontent': [card.input.routerLink.value.end] }}]"
            routerLinkActive="menu-active"
            [routerLinkActiveOptions]="{exact: true}">
             <!--<button mat-icon-button matTooltip="{{card.input.caption.value}}"  [matTooltipPosition]="'bottom'"
@@ -32,16 +33,10 @@
 
 
   <mat-sidenav-content>
-    <mat-grid-list [cols]="cols | async">
-      <mat-grid-tile *ngFor="let card of cards"
-                     [colspan]="card.input.cols.value | async"
-                     [rowspan]="card.input.rows.value | async">
-        <app-dashboard-cards-spawner [card]="card"></app-dashboard-cards-spawner>
-      </mat-grid-tile>
-    </mat-grid-list>--Dashboard Component--
-<!-- outlet for 1st children level (not upper cards) -->
-    <router-outlet></router-outlet>
-    <!-- TODO: sidenavcontent wird hier nicht richtig kompiliert -->
+<!--    <app-grid-list></app-grid-list>-->
+    <!-- TODO (WM): This is the outlet for 1st children level (not upper cards) -->
+<!--    <router-outlet></router-outlet>-->
+    <!-- TODO (WM): sidenavcontent for named 2nd level routes -->
     <router-outlet name="sidenavcontent"></router-outlet>
   </mat-sidenav-content>
 

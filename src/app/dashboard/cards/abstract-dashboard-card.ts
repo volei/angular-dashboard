@@ -1,7 +1,7 @@
 export abstract class AbstractDashboardCard {
   constructor(private _caption: string,
               private _subHeader: string,
-              private _routerLink: string,
+              private _routerLink: {path: string[], end: string},
               private _iconClass: string,
               private _col: string,
               private _row: string,
@@ -19,7 +19,7 @@ export abstract class AbstractDashboardCard {
     return this._subHeader;
   }
 
-  get routerLink(): string {
+  get routerLink(): {path: string[], end: string} {
     return this._routerLink;
   }
 

@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {CfdComponent} from './cfd/cfd.component';
+import {GridListComponent} from './dashboard/grid-list/grid-list.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,7 @@ const routes: Routes = [
       },
       {
         path: 'd',
-        component: DashboardComponent,
+        component: GridListComponent,
         outlet: 'sidenavcontent'
       },
       {

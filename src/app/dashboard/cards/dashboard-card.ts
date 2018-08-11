@@ -6,7 +6,7 @@ export class DashboardCard {
     CAPTION: new InjectionToken<string>('caption'),    // Main title of tile, e.g. NAME, Surname
     SUBHEADER: new InjectionToken<string>('subHeader'), // Subtitle of tile, e.g. job function
     AVATAR: new InjectionToken<string>('avatar'),      // Nickname, e.g. for side menu item
-    ROUTERLINK: new InjectionToken<string>('routerLink'), // Where to go after tile is selected
+    ROUTERLINK: new InjectionToken<{path: string[], end: string}>('routerLink'), // Where to go after tile is selected
     ICONCLASS: new InjectionToken<string>('iconClass'),   // Icon of
     COLS: new InjectionToken<Observable<number>>('cols'),
     ROWS: new InjectionToken<Observable<number>>('rows'),
@@ -34,7 +34,7 @@ export class DashboardCard {
     },
     routerLink: {
       key: InjectionToken<string>,
-      value: string
+      value: {path: string[], end: string}
     },
     iconClass: {
       key: InjectionToken<string>,
@@ -84,7 +84,7 @@ export class DashboardCard {
     },
     routerLink: {
       key: InjectionToken<string>;
-      value: string
+      value:  {path: string[], end: string}
     };
     iconClass: {
       key: InjectionToken<string>;

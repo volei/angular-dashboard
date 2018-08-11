@@ -64,9 +64,9 @@ export class DashboardComponent implements OnInit {
       ['lg', 2],
       ['xl', 2]
     ]);
-    let start_cols: number;
-    let start_cols_big: number;
-    let start_cols_sml: number;
+    let start_cols  = 0;
+    let start_cols_big = 0;
+    let start_cols_sml = 0;
 
     /**
      * WM: Initial media size check with flex-layout's ObservableMedia
@@ -158,7 +158,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/cfd'
+            value: {path: [''], end: 'cfd'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -213,7 +213,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'innovate'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -264,7 +264,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'about'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -315,7 +315,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'service'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -366,7 +366,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'references'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -417,7 +417,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'gis'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -460,15 +460,15 @@ export class DashboardComponent implements OnInit {
           },
           subHeader: {
             key: DashboardCard.metadata.SUBHEADER,
-            value: 'users3'
+            value: 'users7'
           },
           avatar: {
             key: DashboardCard.metadata.AVATAR,
-            value: 'What is CFD?'
+            value: 'What is users7?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'users7'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -511,15 +511,15 @@ export class DashboardComponent implements OnInit {
           },
           subHeader: {
             key: DashboardCard.metadata.SUBHEADER,
-            value: 'users3'
+            value: 'users8'
           },
           avatar: {
             key: DashboardCard.metadata.AVATAR,
-            value: 'What is CFD?'
+            value: 'What is users8?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'users8'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -562,7 +562,7 @@ export class DashboardComponent implements OnInit {
           },
           subHeader: {
             key: DashboardCard.metadata.SUBHEADER,
-            value: 'users3'
+            value: 'users9'
           },
           avatar: {
             key: DashboardCard.metadata.AVATAR,
@@ -570,7 +570,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'users9'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -613,15 +613,15 @@ export class DashboardComponent implements OnInit {
           },
           subHeader: {
             key: DashboardCard.metadata.SUBHEADER,
-            value: 'users3'
+            value: 'users10'
           },
           avatar: {
             key: DashboardCard.metadata.AVATAR,
-            value: 'What is CFD?'
+            value: 'What is users10?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'users10'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -664,15 +664,15 @@ export class DashboardComponent implements OnInit {
           },
           subHeader: {
             key: DashboardCard.metadata.SUBHEADER,
-            value: 'users3'
+            value: 'users11'
           },
           avatar: {
             key: DashboardCard.metadata.AVATAR,
-            value: 'What is CFD?'
+            value: 'What is users11?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'users11'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -715,15 +715,15 @@ export class DashboardComponent implements OnInit {
           },
           subHeader: {
             key: DashboardCard.metadata.SUBHEADER,
-            value: 'users3'
+            value: 'users12'
           },
           avatar: {
             key: DashboardCard.metadata.AVATAR,
-            value: 'What is CFD?'
+            value: 'What is users12?'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'users12'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
@@ -774,7 +774,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
+            value: {path: [''], end: 'cfd'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
