@@ -1,5 +1,5 @@
 /**
- * WM: Card instantiation example
+ * WM: Card instantiation and display example
  */
 
 import {Component, Injector, OnInit} from '@angular/core';

@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {BehaviorSubject} from 'rxjs';
-import {DashboardCard} from '../../cards/dashboard-card';
+import {DashboardCard} from '../../dash-page/cards/dashboard-card';
 
 @Injectable()
 export class DashboardCardsService {

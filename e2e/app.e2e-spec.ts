@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('angular-dashboard App', () => {
+describe('angular-dash-page App', () => {
   let page: AppPage;
 
   beforeEach(() => {

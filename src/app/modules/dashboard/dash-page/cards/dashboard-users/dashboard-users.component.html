@@ -45,7 +45,8 @@
               class="link-btn"
               [matTooltipPosition]="'above'"
               [matTooltipShowDelay]="500"
-              [routerLink]="['../' + routerLink.path.toString(), { outlets: {'sidenavcontent': [routerLink.end] }}]">
+              [routerLink]="['/dashboard', routerLink.path.toString(),
+                              { outlets: {'sidenavcontent': [routerLink.end] }}]">
         <mat-icon fxFlexAlign="center">chevron_right</mat-icon>
       </button>
 

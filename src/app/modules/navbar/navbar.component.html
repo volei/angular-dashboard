@@ -13,7 +13,7 @@
 
           </div>
           <div fxFlex="0 1 15em">
-            <img src="../../assets/EG 180612 Flowexcellence Typehead.svg"
+            <img src="../../../assets/EG%20180612%20Flowexcellence%20Typehead.svg"
                  alt="Flow Excellence"
                  fxFlex="0 1 100%"
                  fxFlexAlign="center"
@@ -24,7 +24,10 @@
           <div fxLayoutAlign="space-between" fxFlexAlign="center">
 <!--                <button mat-icon-button matTooltip="'Open all'" [matTooltipPosition]="'right'"
                         [matTooltipClass]="'dash-tooltip-class'">-->
-            <button mat-icon-button matTooltip="Open all">
+            <button mat-icon-button matTooltip="Open all"
+                    [routerLink]="['./dashboard/all/', {outlets: {sidenavcontent: 'all'}}]"
+                    routerLinkActive="menu-active"
+                    [routerLinkActiveOptions]="{exact: true}">
               <mat-icon>view_module</mat-icon>
             </button>
                 <!--<button mat-icon-button fxFlexAlign="center" matTooltip="Search" [matTooltipPosition]="'right'"

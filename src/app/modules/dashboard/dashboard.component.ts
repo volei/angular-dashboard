@@ -2,23 +2,30 @@
  * https://github.com/nima200/angular-dashboard/blob/master/src/app/dashboard/cards/dashboard-cards-spawner/dashboard-cards-spawner.component.ts
  */
 
-import {Component, OnInit} from '@angular/core';
-import {DashboardCard} from '../cards/dashboard-card';
+import {Component, OnInit, ViewChild} from '@angular/core';
+
 import {Observable} from 'rxjs';
-import {DashboardCardsService} from '../services/dashboard-cards/dashboard-cards.service';
+import {DashboardCardsService} from './services/dashboard-cards/dashboard-cards.service';
 import {ObservableMedia} from '@angular/flex-layout';
 import {map, startWith} from 'rxjs/operators';
-import {DashboardUsersComponent} from '../cards/dashboard-users/dashboard-users.component';
 
-import {DashboardCfdComponent} from '../cards/dashboard-cfd/dashboard-cfd.component';
+import {DashboardCard} from './dash-page/cards/dashboard-card';
+import {DashboardUsersComponent} from './dash-page/cards/dashboard-users/dashboard-users.component';
+import {DashboardCfdComponent} from './dash-page/cards/dashboard-cfd/dashboard-cfd.component';
+import {ActivationStart, Router, RouterOutlet} from '@angular/router';
 
 @Component({
-  selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
   entryComponents: [DashboardUsersComponent, DashboardCfdComponent]
 })
 export class DashboardComponent implements OnInit {
+
+  // TODO (WM): This thing is a workaround only, see
+  // https://github.com/angular/angular/pull/20712#issuecomment-398351773
+  @ViewChild(RouterOutlet) outlet: RouterOutlet;
+  // TODO: end of workaround; remove unused injections/imports after correction
+
 
   cards: DashboardCard[] = [];
   cols: Observable<number>;
@@ -33,13 +40,22 @@ export class DashboardComponent implements OnInit {
    * @param observableMedia
    */
   constructor(private cardsService: DashboardCardsService,
-              private observableMedia: ObservableMedia) {
+              private observableMedia: ObservableMedia,
+              private router: Router) {
     this.cardsService.cards.subscribe(cards => {
       this.cards = cards;
     });
   }
 
   ngOnInit() {
+    // TODO (WM): This thing is a workaround only, see
+    // https://github.com/angular/angular/pull/20712#issuecomment-398351773
+    this.router.events.subscribe(e => {
+      if (e instanceof ActivationStart && e.snapshot.outlet === 'sidenavcontent') {
+        this.outlet.deactivate(); }
+    });
+    // TODO: End of workaround
+
     /* Grid column map */
     const cols_map = new Map([
       ['xs', 1],
@@ -92,6 +108,7 @@ export class DashboardComponent implements OnInit {
         start_cols_sml = cols_sml;
       }
     });
+
 
     /**
      * If not cleared, all present cards on observable will be newly added
@@ -158,7 +175,7 @@ export class DashboardComponent implements OnInit {
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
-            value: {path: [''], end: 'cfd'}
+            value: {path: ['cfd'], end: 'cfd'}
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,

@@ -1,4 +1,5 @@
-<mat-sidenav-container style="min-height: 100%;" fxFlex>
+<!--<mat-sidenav-container fxFlex="1 1 auto" fxLayout="row">-->
+<mat-sidenav-container fxFlex="1 1 auto" fxLayout="row">
 
   <mat-sidenav [opened]="true"
                mode="side"
@@ -10,7 +11,9 @@
       <a mat-list-item *ngFor="let card of cards" fxFlexAlign="start">
         <!--routerLink="{{card.input.routerLink.value}}"-->
         <!--[routerLink]="[{ outlets: {sidenavcontent: [card.input.routerLink.value]}}]"-->
-        <!--[routerLink]="[{ outlets: {sidenavcontent: ['/dashboard/cfd']}}]"-->
+        <!--[routerLink]="[{ outlets: {sidenavcontent: ['/dash-page/cfd']}}]"-->
+          <!--[routerLink]="['./' + card.input.routerLink.value.path.toString(),
+          { outlets: {'sidenavcontent': [card.input.routerLink.value.end] }}]"-->
         <a mat-button
            style="text-align:left"
            matTooltip="{{card.input.subHeader.value}}"
@@ -31,13 +34,16 @@
     </mat-list>
   </mat-sidenav>
 
+<!--    <mat-sidenav-content fxFlex="1 1 auto" fxLayout="column"
+                         style="background: orange">-->
+  <mat-sidenav-content fxFlex="1 1 auto" fxLayout="column"
+                       style="background: orange">
 
-  <mat-sidenav-content>
-<!--    <app-grid-list></app-grid-list>-->
+      <!--    <app-grid-list></app-grid-list>-->
     <!-- TODO (WM): This is the outlet for 1st children level (not upper cards) -->
-<!--    <router-outlet></router-outlet>-->
+    <router-outlet></router-outlet>
     <!-- TODO (WM): sidenavcontent for named 2nd level routes -->
-    <router-outlet name="sidenavcontent"></router-outlet>
+      <router-outlet name="sidenavcontent"></router-outlet>
   </mat-sidenav-content>
 
 
