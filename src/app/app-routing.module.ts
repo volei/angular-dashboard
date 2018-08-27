@@ -31,18 +31,22 @@ const routes: Routes = [
       {
         path: 'cfd',
         loadChildren: './modules/dashboard/dash-page/cfd/cfd.module#CfdModule'
+      },
+      {
+        path: '**',
+        redirectTo: '/dashboard/all/(sidenavcontent:all)'
       }]
   },
   {
     path: '**',
-    redirectTo: 'home'
-  }
+    redirectTo: '/dashboard/all/(sidenavcontent:all)'
+  },
 ];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {useHash: false, enableTracing: true})
-    // WM: Don't use hash (#) in path, use HTML5 routing mod instead
+    // WM: Don't use hash (#) in path, use HTML5 routing mode instead
   ],
   declarations: [],
   exports: [RouterModule]

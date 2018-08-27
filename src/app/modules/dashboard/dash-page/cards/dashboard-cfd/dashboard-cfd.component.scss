@@ -1,0 +1,14 @@
+:host {
+  height: 100%;
+  width: 100%;
+}
+
+/*
+mat-icon{
+  font-family: 'Material Icons' !important;
+}*/
+
+
+.link-btn::ng-deep .mat-button-focus-overlay {
+  background-color: rgba(255,0,0,0.9);
+}

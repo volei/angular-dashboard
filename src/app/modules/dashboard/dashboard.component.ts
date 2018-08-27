@@ -1,5 +1,7 @@
 /**
  * https://github.com/nima200/angular-dashboard/blob/master/src/app/dashboard/cards/dashboard-cards-spawner/dashboard-cards-spawner.component.ts
+ * Flex-Layout Sidenav from https://stackoverflow.com/questions/46690671/angular2-material-responsive-sidenav-and-flex-layout?answertab=votes#tab-top
+ * - MediaChange
  */
 
 import {Component, OnInit, ViewChild} from '@angular/core';
