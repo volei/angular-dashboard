@@ -6,13 +6,15 @@
 
             <!--style="height: 4em; position: fixed; z-index: 999; background: transparent">-->
             <!--<div [style.background]="'magenta'" fxFlex="0 0 1em"></div>-->
+          <!-- This is the variable area between left edge area and Logo area (2nd from left) -->
           <div [style.background]="'blue'"
                [style.z-index]="'900'"
                fxFlex="0 1 2.5em"
                fxFlex.lt-md="1 1 auto">
 
           </div>
-          <div fxFlex="0 1 15em">
+          <div fxFlex="0 1 15em"
+               [routerLink]="['/home']">
             <img src="../../../assets/EG%20180612%20Flowexcellence%20Typehead.svg"
                  alt="Flow Excellence"
                  fxFlex="0 1 100%"

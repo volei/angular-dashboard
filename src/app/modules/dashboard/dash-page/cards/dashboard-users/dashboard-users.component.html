@@ -9,8 +9,20 @@
             'background': 'linear-gradient(' + tileColorFrom + ',' + tileColorTo + '),' + tileImgUrl,
             'background-size': 'cover'}">
 
-  <mat-card-header>
-      <mat-card-title style="z-index: 800"> {{caption}} <br/> {{subHeader}}</mat-card-title>
+  <mat-card-header fxLayout="row" fxLayoutAlign="center">
+      <mat-card-title style="z-index: 800;
+                      text-align: center">
+          <a style="font-size: x-large;
+             font-weight: bold;">
+              {{caption}}
+          </a>
+          <br/><br/>
+          <a style="font-style: italic;
+             font-size: large;
+             font-weight: lighter">
+              {{subHeader}}
+          </a>
+      </mat-card-title>
   </mat-card-header>
 
   <!--<img mat-card-image [src]="'/assets/john-carlisle-539580-unsplash.jpg'" fxLayout="row" fxLayoutAlign="space-between" style="contColor: 0.3; z-index: 0">-->

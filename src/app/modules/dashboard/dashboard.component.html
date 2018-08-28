@@ -1,13 +1,15 @@
 <!--<mat-sidenav-container fxFlex="1 1 auto" fxLayout="row">-->
 <mat-sidenav-container fxFlex="1 1 auto" fxLayout="row">
 
-  <mat-sidenav [opened]="true"
-               mode="side"
+  <mat-sidenav mode="side"
                style="width: auto; z-index: 900; background: rgb(69,115,141)"
+               [opened]="true"
+               fxHide.lt-md
                [fixedInViewport]="true"
-               [fixedTopGap]="'80'"
+               [fixedTopGap]="'0'"
                [fixedBottomGap]="0">
     <mat-list FxLayout="column">
+      <div style="height: 80px"></div>
       <a mat-list-item *ngFor="let card of cards" fxFlexAlign="start">
         <!--routerLink="{{card.input.routerLink.value}}"-->
         <!--[routerLink]="[{ outlets: {sidenavcontent: [card.input.routerLink.value]}}]"-->

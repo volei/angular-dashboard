@@ -5,8 +5,8 @@
   "repository": "https://github.com/nima200/angular-dashboard.git",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4205 --aot --open",
-    "build": "ng build --prod --build-optimizer",
+    "start": "ng serve --port 4205 --open",
+    "build": "ng build --prod --aot --build-optimizer",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

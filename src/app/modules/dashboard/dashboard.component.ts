@@ -165,11 +165,11 @@ export class DashboardComponent implements OnInit {
         {
           caption: {
             key: DashboardCard.metadata.CAPTION,
-            value: 'CLEAR-CUT'
+            value: '\' CLEAR-CUT \''
           },
           subHeader: {
             key: DashboardCard.metadata.SUBHEADER,
-            value: 'What is CFD?'
+            value: `What is CFD? &euro; Do I need it?`
           },
           avatar: {
             key: DashboardCard.metadata.AVATAR,
@@ -220,7 +220,7 @@ export class DashboardComponent implements OnInit {
         {
           caption: {
             key: DashboardCard.metadata.CAPTION,
-            value: 'FAST FORWARD'
+            value: '\' FAST FORWARD \''
           },
           subHeader: {
             key: DashboardCard.metadata.SUBHEADER,
