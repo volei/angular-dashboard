@@ -87,16 +87,19 @@ export class DashboardComponent implements OnInit {
     let start_cols_sml = 0;
 
     /**
-     * WM: Initial media size check with flex-layout's ObservableMedia
+     * WM: Init Card size setup as per initial media size
+     *
+     * Initial media size check with flex-layout's ObservableMedia
      * Prepared for 3 tile dimension magnitudes
      * tile-sizes normal, sml and big possible in each dimension
      */
-    console.log(cols_map);
+  /*  console.log(cols_map);
     console.log(cols_map_big);
-    console.log(cols_map_sml);
+    console.log(cols_map_sml);*/
+
     cols_map.forEach((cols, mqAlias) => {
       if (this.observableMedia.isActive(mqAlias)) {
-        console.log('cols: ' + mqAlias);
+        // console.log('cols: ' + mqAlias);
         start_cols = cols;
       }
     });
@@ -120,25 +123,27 @@ export class DashboardComponent implements OnInit {
     this.clearAllCards();
 
     /**
-     * WM: Pipe in any media size change to the cols[_xxx] observables
+     * WM: Resize cards reacting to media size change
+     *
+     * Pipe in any media size change to the cols[_xxx] observables
      * Each time observableMedia emits, the cols...-observables get
      * fired the respective No. of cols from the cols_map...-presets.
      */
     this.cols = this.observableMedia.asObservable().pipe(
       map(change => {
-        console.log('nrm: ' + cols_map.get(change.mqAlias) + '  ' + change.mqAlias);
+        // console.log('nrm: ' + cols_map.get(change.mqAlias) + '  ' + change.mqAlias);
         return cols_map.get(change.mqAlias);
       }),
       startWith(start_cols));
     this.cols_big = this.observableMedia.asObservable().pipe(
       map(change => {
-        console.log('big: ' + cols_map_big.get(change.mqAlias) + '  ' + change.mqAlias);
+        // console.log('big: ' + cols_map_big.get(change.mqAlias) + '  ' + change.mqAlias);
         return cols_map_big.get(change.mqAlias);
       }),
       startWith(start_cols_big));
     this.cols_sml = this.observableMedia.asObservable().pipe(
       map(change => {
-        console.log('sml: ' + cols_map_sml.get(change.mqAlias) + '  ' + change.mqAlias);
+        // console.log('sml: ' + cols_map_sml.get(change.mqAlias) + '  ' + change.mqAlias);
         return cols_map_sml.get(change.mqAlias);
       }),
       startWith(start_cols_sml));
