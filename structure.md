@@ -14,3 +14,8 @@ That being done, we can do the same for shared module.
 * (feature).module.ts
 
 each in its own directory under /app.
+
+
+# Stackblitz example for this dashboard
+
+https://stackblitz.com/edit/angular-zov92z?file=src%2Fapp%2Frouting%2Frouting.module.ts

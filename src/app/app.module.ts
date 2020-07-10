@@ -2,9 +2,10 @@
  * Project structure see
  * https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
  * or
- * C:\Users\WM3\NightlyTemps\Angular\180327 Angular - Router - Project Structure - File Structure - How to define a highly scalable folder structure for your Angular project.pdf
  *
  */
+// tslint:disable-next-line:max-line-length
+// C:\Users\WM3\NightlyTemps\Angular\180327 Angular - Router - Project Structure - File Structure - How to define a highly scalable folder structure for your Angular project.pdf
 
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';

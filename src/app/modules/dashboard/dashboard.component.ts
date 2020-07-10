@@ -1,4 +1,6 @@
 /**
+ // tslint:disable-next-line:jsdoc-format
+ // tslint:disable-next-line:max-line-length
  * https://github.com/nima200/angular-dashboard/blob/master/src/app/dashboard/cards/dashboard-cards-spawner/dashboard-cards-spawner.component.ts
  * Flex-Layout Sidenav from https://stackoverflow.com/questions/46690671/angular2-material-responsive-sidenav-and-flex-layout?answertab=votes#tab-top
  * - MediaChange
@@ -8,7 +10,7 @@ import {Component, OnInit, ViewChild} from '@angular/core';
 
 import {Observable} from 'rxjs';
 import {DashboardCardsService} from './services/dashboard-cards/dashboard-cards.service';
-import {ObservableMedia} from '@angular/flex-layout';
+import {MediaObserver} from '@angular/flex-layout';
 import {map, startWith} from 'rxjs/operators';
 
 import {DashboardCard} from './dash-page/cards/dashboard-card';
@@ -35,21 +37,19 @@ export class DashboardComponent implements OnInit {
   cols_sml: Observable<number>;
 
   /**
-   * WM: Subscribe to the cards BehaviorSubject which holds an array
-   * of all existing cards
-   *
    * @param cardsService
-   * @param observableMedia
+   * @param mediaObserver
+   * @param router
    */
   constructor(private cardsService: DashboardCardsService,
-              private observableMedia: ObservableMedia,
+              private mediaObserver: MediaObserver,
               private router: Router) {
     this.cardsService.cards.subscribe(cards => {
       this.cards = cards;
     });
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     // TODO (WM): This thing is a workaround only, see
     // https://github.com/angular/angular/pull/20712#issuecomment-398351773
     this.router.events.subscribe(e => {
@@ -89,7 +89,7 @@ export class DashboardComponent implements OnInit {
     /**
      * WM: Init Card size setup as per initial media size
      *
-     * Initial media size check with flex-layout's ObservableMedia
+     * Initial media size check with flex-layout's mediaObserver
      * Prepared for 3 tile dimension magnitudes
      * tile-sizes normal, sml and big possible in each dimension
      */
@@ -98,18 +98,18 @@ export class DashboardComponent implements OnInit {
     console.log(cols_map_sml);*/
 
     cols_map.forEach((cols, mqAlias) => {
-      if (this.observableMedia.isActive(mqAlias)) {
+      if (this.mediaObserver.isActive(mqAlias)) {
         // console.log('cols: ' + mqAlias);
         start_cols = cols;
       }
     });
     cols_map_big.forEach((cols_big, mqAlias) => {
-      if (this.observableMedia.isActive(mqAlias)) {
+      if (this.mediaObserver.isActive(mqAlias)) {
         start_cols_big = cols_big;
       }
     });
     cols_map_sml.forEach((cols_sml, mqAliast) => {
-      if (this.observableMedia.isActive(mqAliast)) {
+      if (this.mediaObserver.isActive(mqAliast)) {
         start_cols_sml = cols_sml;
       }
     });
@@ -126,25 +126,26 @@ export class DashboardComponent implements OnInit {
      * WM: Resize cards reacting to media size change
      *
      * Pipe in any media size change to the cols[_xxx] observables
-     * Each time observableMedia emits, the cols...-observables get
+     * Each time mediaObserver emits, the cols...-observables get
      * fired the respective No. of cols from the cols_map...-presets.
+     * old: https://livebook.manning.com/book/angular-development-with-typescript-second-edition/chapter-7/64
      */
-    this.cols = this.observableMedia.asObservable().pipe(
+    this.cols = this.mediaObserver.asObservable().pipe(
       map(change => {
-        // console.log('nrm: ' + cols_map.get(change.mqAlias) + '  ' + change.mqAlias);
-        return cols_map.get(change.mqAlias);
+        console.log(change + 'nrm: ' + cols_map.get(change[0].mqAlias) + '  ' + change[0].mqAlias);
+        return cols_map.get(change[0].mqAlias);
       }),
       startWith(start_cols));
-    this.cols_big = this.observableMedia.asObservable().pipe(
+    this.cols_big = this.mediaObserver.asObservable().pipe(
       map(change => {
         // console.log('big: ' + cols_map_big.get(change.mqAlias) + '  ' + change.mqAlias);
-        return cols_map_big.get(change.mqAlias);
+        return cols_map_big.get(change[0].mqAlias);
       }),
       startWith(start_cols_big));
-    this.cols_sml = this.observableMedia.asObservable().pipe(
+    this.cols_sml = this.mediaObserver.asObservable().pipe(
       map(change => {
         // console.log('sml: ' + cols_map_sml.get(change.mqAlias) + '  ' + change.mqAlias);
-        return cols_map_sml.get(change.mqAlias);
+        return cols_map_sml.get(change[0].mqAlias);
       }),
       startWith(start_cols_sml));
 

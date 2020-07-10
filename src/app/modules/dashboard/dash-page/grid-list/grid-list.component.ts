@@ -16,7 +16,7 @@ export class GridListComponent implements OnInit {
 
   constructor(private dashboardComponent: DashboardComponent) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.cards = this.dashboardComponent.cards;
     this.cols = this.dashboardComponent.cols;
   }

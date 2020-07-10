@@ -25,14 +25,15 @@ export class DashboardCardsSpawnerComponent implements OnInit {
     // Optionally include services
     inputProviders = inputProviders.concat(data.services);
     // WM: Original: const injector = Injector.create(inputProviders, this.container.parentInjector);
-    // not deprecated on Injector ??????????
-    const injector = Injector.create(inputProviders, this.container.parentInjector);
+    // not deprecated on Injector ???????????
+    // const injector = Injector.create(inputProviders, this.container.parentInjector);
+    const injector = Injector.create( {providers: inputProviders});
     const factory = this.resolver.resolveComponentFactory(data.component);
     const component = factory.create(injector);
     this.container.insert(component.hostView);
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }
