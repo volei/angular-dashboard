@@ -19,9 +19,8 @@ import {DashboardCfdComponent} from './dash-page/cards/dashboard-cfd/dashboard-c
 import {ActivationStart, Router, RouterOutlet} from '@angular/router';
 
 @Component({
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss'],
-  entryComponents: [DashboardUsersComponent, DashboardCfdComponent]
+    templateUrl: './dashboard.component.html',
+    styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
 
