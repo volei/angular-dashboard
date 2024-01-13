@@ -45,7 +45,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { useHash: false, enableTracing: true, relativeLinkResolution: 'legacy' })
+    RouterModule.forRoot(routes, { useHash: false, enableTracing: true })
     // WM: Don't use hash (#) in path, use HTML5 routing mode instead
   ],
   declarations: [],
