@@ -23,7 +23,7 @@ export class DashboardCfdComponent extends AbstractDashboardCard implements OnIn
       injector.get(DashboardCard.metadata.CONTCOLOR));
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }

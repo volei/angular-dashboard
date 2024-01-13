@@ -19,18 +19,18 @@ const routes: Routes = [
   {
     path: 'dashboard',
     component: DashboardComponent,
-    /*loadChildren: './modules/dashboard/dash-page/grid-list/grid-list.module#CfdModule',*/
+    /*loadChildren: () => import('./modules/dashboard/dash-page/grid-list/grid-list.module').then(m => m.CfdModule),*/
 
     children: [{path: '', component: DashboardUsersComponent},
       {
         path: 'all',
-        loadChildren: './modules/dashboard/dash-page/grid-list/grid-list.module#GridListModule'
+        loadChildren: () => import('./modules/dashboard/dash-page/grid-list/grid-list.module').then(m => m.GridListModule)
 /*        component: GridListComponent,
         outlet: 'sidenavcontent'*/
       },
       {
         path: 'cfd',
-        loadChildren: './modules/dashboard/dash-page/cfd/cfd.module#CfdModule'
+        loadChildren: () => import('./modules/dashboard/dash-page/cfd/cfd.module').then(m => m.CfdModule)
       },
       {
         path: '**',

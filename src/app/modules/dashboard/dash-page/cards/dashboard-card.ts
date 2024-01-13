@@ -84,7 +84,7 @@ export class DashboardCard {
     },
     routerLink: {
       key: InjectionToken<string>;
-      value:  {path: string[], end: string}
+      value: {path: string[], end: string}
     };
     iconClass: {
       key: InjectionToken<string>;
