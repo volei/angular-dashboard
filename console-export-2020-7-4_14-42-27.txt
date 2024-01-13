@@ -1,0 +1,1095 @@
+Router Event: NavigationStart platform-browser.js:71
+NavigationStart(id: 1, url: '/') platform-browser.js:66
+Object { id: 1, url: "/", navigationTrigger: "imperative", restoredState: null }
+platform-browser.js:66
+Angular is running in development mode. Call enableProdMode() to enable production mode. core.js:26534
+Router Event: RouteConfigLoadStart platform-browser.js:71
+RouteConfigLoadStart(path: all) platform-browser.js:66
+Object { route: {…} }
+platform-browser.js:66
+Router Event: RouteConfigLoadEnd platform-browser.js:71
+RouteConfigLoadEnd(path: all) platform-browser.js:66
+Object { route: {…} }
+platform-browser.js:66
+Router Event: RoutesRecognized platform-browser.js:71
+RoutesRecognized(id: 1, url: '/', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 1, url: "/", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckStart platform-browser.js:71
+GuardsCheckStart(id: 1, url: '/', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 1, url: "/", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: ChildActivationStart platform-browser.js:71
+ChildActivationStart(path: '') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationStart platform-browser.js:71
+ActivationStart(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationStart platform-browser.js:71
+ChildActivationStart(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationStart platform-browser.js:71
+ActivationStart(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationStart platform-browser.js:71
+ChildActivationStart(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationStart platform-browser.js:71
+ActivationStart(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckEnd platform-browser.js:71
+GuardsCheckEnd(id: 1, url: '/', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } , shouldActivate: true) platform-browser.js:66
+Object { id: 1, url: "/", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…}, shouldActivate: true }
+platform-browser.js:66
+Router Event: ResolveStart platform-browser.js:71
+ResolveStart(id: 1, url: '/', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 1, url: "/", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: ResolveEnd platform-browser.js:71
+ResolveEnd(id: 1, url: '/', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 1, url: "/", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: '') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: NavigationEnd platform-browser.js:71
+NavigationEnd(id: 1, url: '/', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)') platform-browser.js:66
+Object { id: 1, url: "/", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)" }
+platform-browser.js:66
+Router Event: Scroll platform-browser.js:71
+Scroll(anchor: 'null', position: 'null') platform-browser.js:66
+Object { routerEvent: {…}, position: null, anchor: null }
+platform-browser.js:66
+Cards removed. Total cards present: 0 dashboard-cards.service.ts:21:12
+Total cards present: 1 dashboard-cards.service.ts:15:12
+Array [ {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 2 dashboard-cards.service.ts:15:12
+Array [ {…}, {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 3 dashboard-cards.service.ts:15:12
+Array(3) [ {…}, {…}, {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 4 dashboard-cards.service.ts:15:12
+Array(4) [ {…}, {…}, {…}, {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 5 dashboard-cards.service.ts:15:12
+Array(5) [ {…}, {…}, {…}, {…}, {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 6 dashboard-cards.service.ts:15:12
+Array(6) [ {…}, {…}, {…}, {…}, {…}, {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 7 dashboard-cards.service.ts:15:12
+Array(7) [ {…}, {…}, {…}, {…}, {…}, {…}, {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 8 dashboard-cards.service.ts:15:12
+Array(8) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 9 dashboard-cards.service.ts:15:12
+Array(9) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 10 dashboard-cards.service.ts:15:12
+Array(10) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…} ]
+dashboard-cards.service.ts:16:12
+Total cards present: 11 dashboard-cards.service.ts:15:12
+Array(11) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
+dashboard-cards.service.ts:16:12
+Total cards present: 12 dashboard-cards.service.ts:15:12
+Array(12) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
+dashboard-cards.service.ts:16:12
+Total cards present: 13 dashboard-cards.service.ts:15:12
+Array(13) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
+dashboard-cards.service.ts:16:12
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"' CLEAR-CUT '"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"What is CFD? &euro; Do I need it?"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is CFD?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":["cfd"],"end":"cfd"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,77,128,0.8)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,77,128,0.6)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/coaching-coders-coding-7374.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"rgba(255,100,100,0.6"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"' CLEAR-CUT '","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"What is CFD? &euro; Do I need it?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is CFD?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":["cfd"],"end":"cfd"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,77,128,0.8)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,77,128,0.6)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/coaching-coders-coding-7374.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"rgba(255,100,100,0.6","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"' FAST FORWARD '"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"Innovate!"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"Innovate!"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"innovate"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/Verlauf-Amiga-Bildschirm-Hintergrund_600.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"rgba(255,100,100,0.6"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"' FAST FORWARD '","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"Innovate!","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"Innovate!","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"innovate"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/Verlauf-Amiga-Bildschirm-Hintergrund_600.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"rgba(255,100,100,0.6","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"ABOUT"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"About Flow Excellence"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"About us"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"about"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-link"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../..)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"ABOUT","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"About Flow Excellence","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"About us","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"about"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-link","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../..)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"ROAD ASSISTANCE"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"CFD Service: Need help? Serving you with CFD"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is CFD?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"service"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,191,0,0.9)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,191,0,0.6)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/adult-business-classroom-256401.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"ROAD ASSISTANCE","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"CFD Service: Need help? Serving you with CFD","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is CFD?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"service"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,191,0,0.9)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,191,0,0.6)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/adult-business-classroom-256401.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"MISSION ACCOMPLISHED"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"Reference projects"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"CFD Projects"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"references"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/blur-computer-connection-442150.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"MISSION ACCOMPLISHED","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"Reference projects","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"CFD Projects","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"references"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/blur-computer-connection-442150.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"THE WORLD IN DATA"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"Geographic Information Services"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"GIS"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"gis"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/pexels-photo-325223.jpeg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"THE WORLD IN DATA","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"Geographic Information Services","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"GIS","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"gis"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/pexels-photo-325223.jpeg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users7"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users7"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users7?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users7"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/pexels-photo-267507.jpeg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users7","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users7","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users7?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users7"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/pexels-photo-267507.jpeg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users8"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users8"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users8?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users8"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/john-carlisle-539580-unsplash.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users8","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users8","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users8?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users8"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/john-carlisle-539580-unsplash.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users9<p>hallohallo</p>kljlkjjlj"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users9"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is CFD?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users9"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"blue"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"0.5"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users9<p>hallohallo</p>kljlkjjlj","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users9","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is CFD?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users9"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"0.5","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users10"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users10"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users10?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users10"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"blue"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users10","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users10","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users10?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users10"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users11"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users11"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users11?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users11"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"blue"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users11","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users11","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users11?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users11"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users12"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users12"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users12?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users12"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(\"../../../../assets/EG 180612 Flowexcellence Typehead.png\")"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users12","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users12","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users12?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users12"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(\"../../../../assets/EG 180612 Flowexcellence Typehead.png\")","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"CFD"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"CFD-Component"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"CFD-Component"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"cfd"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"blue"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"CFD","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"CFD-Component","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"CFD-Component","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"cfd"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 8
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+[WDS] Live Reloading enabled. client:52
+[WDS] Warnings while compiling. client:126
+/media/dev_share/angular-dashboard/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+Add only entry points to the 'files' or 'include' properties in your tsconfig. client:135
+Router Event: NavigationStart platform-browser.js:71
+NavigationStart(id: 2, url: '/dashboard/cfd/(sidenavcontent:cfd)') platform-browser.js:66
+Object { id: 2, url: "/dashboard/cfd/(sidenavcontent:cfd)", navigationTrigger: "imperative", restoredState: null }
+platform-browser.js:66
+Router Event: RouteConfigLoadStart platform-browser.js:71
+RouteConfigLoadStart(path: cfd) platform-browser.js:66
+Object { route: {…} }
+platform-browser.js:66
+Router Event: RouteConfigLoadEnd platform-browser.js:71
+RouteConfigLoadEnd(path: cfd) platform-browser.js:66
+Object { route: {…} }
+platform-browser.js:66
+Router Event: RoutesRecognized platform-browser.js:71
+RoutesRecognized(id: 2, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } ) platform-browser.js:66
+Object { id: 2, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckStart platform-browser.js:71
+GuardsCheckStart(id: 2, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } ) platform-browser.js:66
+Object { id: 2, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…} }
+platform-browser.js:66
+Router Event: ChildActivationStart platform-browser.js:71
+ChildActivationStart(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationStart platform-browser.js:71
+ActivationStart(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationStart platform-browser.js:71
+ChildActivationStart(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationStart platform-browser.js:71
+ActivationStart(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckEnd platform-browser.js:71
+GuardsCheckEnd(id: 2, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } , shouldActivate: true) platform-browser.js:66
+Object { id: 2, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…}, shouldActivate: true }
+platform-browser.js:66
+Router Event: ResolveStart platform-browser.js:71
+ResolveStart(id: 2, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } ) platform-browser.js:66
+Object { id: 2, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…} }
+platform-browser.js:66
+Router Event: ResolveEnd platform-browser.js:71
+ResolveEnd(id: 2, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } ) platform-browser.js:66
+Object { id: 2, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: '') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: NavigationEnd platform-browser.js:71
+NavigationEnd(id: 2, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)') platform-browser.js:66
+Object { id: 2, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)" }
+platform-browser.js:66
+Router Event: Scroll platform-browser.js:71
+Scroll(anchor: 'null', position: 'null') platform-browser.js:66
+Object { routerEvent: {…}, position: null, anchor: null }
+platform-browser.js:66
+Router Event: NavigationStart platform-browser.js:71
+NavigationStart(id: 3, url: '/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)') platform-browser.js:66
+Object { id: 3, url: "/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)", navigationTrigger: "imperative", restoredState: null }
+platform-browser.js:66
+Router Event: RoutesRecognized platform-browser.js:71
+RoutesRecognized(id: 3, url: '/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 3, url: "/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckStart platform-browser.js:71
+GuardsCheckStart(id: 3, url: '/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 3, url: "/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: ChildActivationStart platform-browser.js:71
+ChildActivationStart(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationStart platform-browser.js:71
+ActivationStart(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationStart platform-browser.js:71
+ChildActivationStart(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationStart platform-browser.js:71
+ActivationStart(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckEnd platform-browser.js:71
+GuardsCheckEnd(id: 3, url: '/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } , shouldActivate: true) platform-browser.js:66
+Object { id: 3, url: "/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…}, shouldActivate: true }
+platform-browser.js:66
+Router Event: ResolveStart platform-browser.js:71
+ResolveStart(id: 3, url: '/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 3, url: "/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: ResolveEnd platform-browser.js:71
+ResolveEnd(id: 3, url: '/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 3, url: "/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: '') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: NavigationEnd platform-browser.js:71
+NavigationEnd(id: 3, url: '/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)') platform-browser.js:66
+Object { id: 3, url: "/dashboard/(cfd/(sidenavcontent:cfd)//sidenavcontent:innovate)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)" }
+platform-browser.js:66
+Router Event: Scroll platform-browser.js:71
+Scroll(anchor: 'null', position: 'null') platform-browser.js:66
+Object { routerEvent: {…}, position: null, anchor: null }
+platform-browser.js:66
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"' CLEAR-CUT '"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"What is CFD? &euro; Do I need it?"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is CFD?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":["cfd"],"end":"cfd"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,77,128,0.8)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,77,128,0.6)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/coaching-coders-coding-7374.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"rgba(255,100,100,0.6"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"' CLEAR-CUT '","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"What is CFD? &euro; Do I need it?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is CFD?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":["cfd"],"end":"cfd"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,77,128,0.8)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,77,128,0.6)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/coaching-coders-coding-7374.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"rgba(255,100,100,0.6","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"' FAST FORWARD '"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"Innovate!"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"Innovate!"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"innovate"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/Verlauf-Amiga-Bildschirm-Hintergrund_600.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"rgba(255,100,100,0.6"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"' FAST FORWARD '","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"Innovate!","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"Innovate!","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"innovate"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/Verlauf-Amiga-Bildschirm-Hintergrund_600.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"rgba(255,100,100,0.6","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"ABOUT"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"About Flow Excellence"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"About us"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"about"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-link"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../..)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"ABOUT","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"About Flow Excellence","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"About us","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"about"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-link","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../..)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"ROAD ASSISTANCE"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"CFD Service: Need help? Serving you with CFD"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is CFD?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"service"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,191,0,0.9)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,191,0,0.6)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/adult-business-classroom-256401.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"ROAD ASSISTANCE","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"CFD Service: Need help? Serving you with CFD","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is CFD?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"service"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,191,0,0.9)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,191,0,0.6)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/adult-business-classroom-256401.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"MISSION ACCOMPLISHED"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"Reference projects"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"CFD Projects"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"references"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/blur-computer-connection-442150.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"MISSION ACCOMPLISHED","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"Reference projects","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"CFD Projects","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"references"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/blur-computer-connection-442150.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"THE WORLD IN DATA"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"Geographic Information Services"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"GIS"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"gis"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/pexels-photo-325223.jpeg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"THE WORLD IN DATA","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"Geographic Information Services","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"GIS","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"gis"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/pexels-photo-325223.jpeg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users7"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users7"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users7?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users7"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/pexels-photo-267507.jpeg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users7","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users7","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users7?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users7"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/pexels-photo-267507.jpeg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users8"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users8"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users8?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users8"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(../../../../assets/john-carlisle-539580-unsplash.jpg)"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users8","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users8","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users8?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users8"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(../../../../assets/john-carlisle-539580-unsplash.jpg)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users9<p>hallohallo</p>kljlkjjlj"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users9"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is CFD?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users9"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"blue"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"0.5"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users9<p>hallohallo</p>kljlkjjlj","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users9","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is CFD?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users9"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"0.5","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users10"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users10"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users10?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users10"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"blue"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users10","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users10","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users10?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users10"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users11"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users11"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users11?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users11"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"blue"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users11","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users11","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users11?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users11"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"users12"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"users12"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"What is users12?"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"users12"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"url(\"../../../../assets/EG 180612 Flowexcellence Typehead.png\")"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"users12","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"users12","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"What is users12?","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"users12"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"url(\"../../../../assets/EG 180612 Flowexcellence Typehead.png\")","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+{"_input":{"caption":{"key":{"_desc":"caption","ngMetadataName":"InjectionToken"},"value":"CFD"},"subHeader":{"key":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"value":"CFD-Component"},"avatar":{"key":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"value":"CFD-Component"},"routerLink":{"key":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"value":{"path":[""],"end":"cfd"}},"iconClass":{"key":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"value":"fa-users"},"cols":{"key":{"_desc":"cols","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"rows":{"key":{"_desc":"rows","ngMetadataName":"InjectionToken"},"value":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}}},"tileColorFrom":{"key":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileColorTo":{"key":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"value":"rgba(0,0,0,0.7)"},"tileImgUrl":{"key":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"value":"blue"},"contColor":{"key":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"value":"blue"}},"_services":[]} dashboard-cards-spawner.component.ts:20:12
+{"provide":{"_desc":"caption","ngMetadataName":"InjectionToken"},"useValue":"CFD","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"subHeader","ngMetadataName":"InjectionToken"},"useValue":"CFD-Component","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"avatar","ngMetadataName":"InjectionToken"},"useValue":"CFD-Component","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"routerLink","ngMetadataName":"InjectionToken"},"useValue":{"path":[""],"end":"cfd"},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"iconClass","ngMetadataName":"InjectionToken"},"useValue":"fa-users","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"cols","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"rows","ngMetadataName":"InjectionToken"},"useValue":{"_isScalar":false,"source":{"_isScalar":false},"operator":{"concurrent":1}},"deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorFrom","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileColorTo","ngMetadataName":"InjectionToken"},"useValue":"rgba(0,0,0,0.7)","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"tileImgUrl","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+{"provide":{"_desc":"contColor","ngMetadataName":"InjectionToken"},"useValue":"blue","deps":[]} dashboard-cards-spawner.component.ts:22:14
+ERROR TypeError: this.container is undefined
+    set card dashboard-cards-spawner.component.ts:29
+    Angular 3
+    GridListComponent_mat_grid_tile_2_Template template.html:5
+    Angular 30
+    RxJS 5
+    Angular 11
+core.js:4081
+[object Object],[object Object],[object Object],[object Object],[object Object]nrm: 10  lg dashboard.component.ts:135:17
+Router Event: NavigationStart platform-browser.js:71
+NavigationStart(id: 4, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)') platform-browser.js:66
+Object { id: 4, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)", navigationTrigger: "imperative", restoredState: null }
+platform-browser.js:66
+Router Event: RoutesRecognized platform-browser.js:71
+RoutesRecognized(id: 4, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 4, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckStart platform-browser.js:71
+GuardsCheckStart(id: 4, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 4, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckEnd platform-browser.js:71
+GuardsCheckEnd(id: 4, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } , shouldActivate: true) platform-browser.js:66
+Object { id: 4, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…}, shouldActivate: true }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: '') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: NavigationEnd platform-browser.js:71
+NavigationEnd(id: 4, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)') platform-browser.js:66
+Object { id: 4, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:about)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)" }
+platform-browser.js:66
+Router Event: Scroll platform-browser.js:71
+Scroll(anchor: 'null', position: 'null') platform-browser.js:66
+Object { routerEvent: {…}, position: null, anchor: null }
+platform-browser.js:66
+Router Event: NavigationStart platform-browser.js:71
+NavigationStart(id: 5, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)') platform-browser.js:66
+Object { id: 5, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)", navigationTrigger: "imperative", restoredState: null }
+platform-browser.js:66
+Router Event: RoutesRecognized platform-browser.js:71
+RoutesRecognized(id: 5, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 5, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckStart platform-browser.js:71
+GuardsCheckStart(id: 5, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 5, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckEnd platform-browser.js:71
+GuardsCheckEnd(id: 5, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } , shouldActivate: true) platform-browser.js:66
+Object { id: 5, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…}, shouldActivate: true }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: '') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: NavigationEnd platform-browser.js:71
+NavigationEnd(id: 5, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)') platform-browser.js:66
+Object { id: 5, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:service)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)" }
+platform-browser.js:66
+Router Event: Scroll platform-browser.js:71
+Scroll(anchor: 'null', position: 'null') platform-browser.js:66
+Object { routerEvent: {…}, position: null, anchor: null }
+platform-browser.js:66
+Router Event: NavigationStart platform-browser.js:71
+NavigationStart(id: 6, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)') platform-browser.js:66
+Object { id: 6, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)", navigationTrigger: "imperative", restoredState: null }
+platform-browser.js:66
+Router Event: RoutesRecognized platform-browser.js:71
+RoutesRecognized(id: 6, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 6, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckStart platform-browser.js:71
+GuardsCheckStart(id: 6, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 6, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckEnd platform-browser.js:71
+GuardsCheckEnd(id: 6, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } , shouldActivate: true) platform-browser.js:66
+Object { id: 6, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…}, shouldActivate: true }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: '') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: NavigationEnd platform-browser.js:71
+NavigationEnd(id: 6, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)') platform-browser.js:66
+Object { id: 6, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:references)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)" }
+platform-browser.js:66
+Router Event: Scroll platform-browser.js:71
+Scroll(anchor: 'null', position: 'null') platform-browser.js:66
+Object { routerEvent: {…}, position: null, anchor: null }
+platform-browser.js:66
+Router Event: NavigationStart platform-browser.js:71
+NavigationStart(id: 7, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)') platform-browser.js:66
+Object { id: 7, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)", navigationTrigger: "imperative", restoredState: null }
+platform-browser.js:66
+Router Event: RoutesRecognized platform-browser.js:71
+RoutesRecognized(id: 7, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 7, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckStart platform-browser.js:71
+GuardsCheckStart(id: 7, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } ) platform-browser.js:66
+Object { id: 7, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckEnd platform-browser.js:71
+GuardsCheckEnd(id: 7, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'all', path:'all') { Route(url:'all', path:'all') }  }  } , shouldActivate: true) platform-browser.js:66
+Object { id: 7, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)", state: {…}, shouldActivate: true }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'all') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: '') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: NavigationEnd platform-browser.js:71
+NavigationEnd(id: 7, url: '/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)', urlAfterRedirects: '/dashboard/all/(sidenavcontent:all)') platform-browser.js:66
+Object { id: 7, url: "/dashboard/(all/(sidenavcontent:all)//sidenavcontent:users10)", urlAfterRedirects: "/dashboard/all/(sidenavcontent:all)" }
+platform-browser.js:66
+Router Event: Scroll platform-browser.js:71
+Scroll(anchor: 'null', position: 'null') platform-browser.js:66
+Object { routerEvent: {…}, position: null, anchor: null }
+platform-browser.js:66
+Router Event: NavigationStart platform-browser.js:71
+NavigationStart(id: 8, url: '/dashboard/cfd/(sidenavcontent:cfd)') platform-browser.js:66
+Object { id: 8, url: "/dashboard/cfd/(sidenavcontent:cfd)", navigationTrigger: "imperative", restoredState: null }
+platform-browser.js:66
+Router Event: RoutesRecognized platform-browser.js:71
+RoutesRecognized(id: 8, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } ) platform-browser.js:66
+Object { id: 8, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckStart platform-browser.js:71
+GuardsCheckStart(id: 8, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } ) platform-browser.js:66
+Object { id: 8, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…} }
+platform-browser.js:66
+Router Event: ChildActivationStart platform-browser.js:71
+ChildActivationStart(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationStart platform-browser.js:71
+ActivationStart(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationStart platform-browser.js:71
+ChildActivationStart(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationStart platform-browser.js:71
+ActivationStart(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: GuardsCheckEnd platform-browser.js:71
+GuardsCheckEnd(id: 8, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } , shouldActivate: true) platform-browser.js:66
+Object { id: 8, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…}, shouldActivate: true }
+platform-browser.js:66
+Router Event: ResolveStart platform-browser.js:71
+ResolveStart(id: 8, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } ) platform-browser.js:66
+Object { id: 8, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…} }
+platform-browser.js:66
+Router Event: ResolveEnd platform-browser.js:71
+ResolveEnd(id: 8, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)', state: Route(url:'', path:'') { Route(url:'dashboard', path:'dashboard') { Route(url:'cfd', path:'cfd') { Route(url:'cfd', path:'cfd') }  }  } ) platform-browser.js:66
+Object { id: 8, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)", state: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'cfd') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ActivationEnd platform-browser.js:71
+ActivationEnd(path: 'dashboard') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: ChildActivationEnd platform-browser.js:71
+ChildActivationEnd(path: '') platform-browser.js:66
+Object { snapshot: {…} }
+platform-browser.js:66
+Router Event: NavigationEnd platform-browser.js:71
+NavigationEnd(id: 8, url: '/dashboard/cfd/(sidenavcontent:cfd)', urlAfterRedirects: '/dashboard/cfd/(sidenavcontent:cfd)') platform-browser.js:66
+Object { id: 8, url: "/dashboard/cfd/(sidenavcontent:cfd)", urlAfterRedirects: "/dashboard/cfd/(sidenavcontent:cfd)" }
+platform-browser.js:66
+Router Event: Scroll platform-browser.js:71
+Scroll(anchor: 'null', position: 'null') platform-browser.js:66
+Object { routerEvent: {…}, position: null, anchor: null }
+platform-browser.js:66
