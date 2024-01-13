@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Angular10:build"
+            "buildTarget": "Angular10:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Angular10:build:production"
+              "buildTarget": "Angular10:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Angular10:build"
+            "buildTarget": "Angular10:build"
           }
         },
         "test": {
